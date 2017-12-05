@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Insert title here</title>
+<title>스크립트 자판기</title>
 <style>
 button {height: 40px;}
 #money > button {width: 60px;height: 40px;}
@@ -105,6 +105,7 @@ function calc(){
 
 투입액<input id="calc" type="text" name="result" value="">
 
+<!-- 메뉴 -->
 <div id="menu">
 <button onclick="func2(this)">소주<br><span>4500</span></button>
 <button onclick="func2(this)">맥주<br><span>4500</span></button>
